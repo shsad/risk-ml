@@ -1,12 +1,20 @@
 {
-  "status": "OK",
   "checks": {
-    "load": "Loaded 307511 rows, 122 columns",
-    "target": "TARGET column present",
-    "schema": "All required columns present",
-    "nulls": {
-      "columns_over_80pct": {}
+    "missing_required_cols": [],
+    "target_value_counts": {
+      "0": 282686,
+      "1": 24825
     },
-    "numeric_ranges": "All numeric ranges OK"
-  }
+    "default_rate": 0.08072881945686496,
+    "duplicate_SK_ID_CURR": 0,
+    "high_missing_cols_ge_threshold": {
+      "threshold": 0.8,
+      "count": 0,
+      "cols": []
+    },
+    "negative_income_count": 0,
+    "non_negative_DAYS_BIRTH_count": 0,
+    "potential_leakage_cols_heuristic": []
+  },
+  "warnings": []
 }
