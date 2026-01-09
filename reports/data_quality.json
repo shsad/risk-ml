@@ -1,0 +1,12 @@
+{
+  "status": "OK",
+  "checks": {
+    "load": "Loaded 307511 rows, 122 columns",
+    "target": "TARGET column present",
+    "schema": "All required columns present",
+    "nulls": {
+      "columns_over_80pct": {}
+    },
+    "numeric_ranges": "All numeric ranges OK"
+  }
+}

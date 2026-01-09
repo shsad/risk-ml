@@ -1,0 +1,6 @@
+{
+  "status": "FAIL",
+  "checks": {
+    "load": "Error loading file: [Errno 2] No such file or directory: '../data/application_train.csv'"
+  }
+}

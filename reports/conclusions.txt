@@ -1,0 +1,7 @@
+Data Quality Summary
+Rows: 307511, Columns: 122
+Duplicate rows: 0
+Duplicate SK_ID_CURR: 0
+Columns >80% missing saved in missingness_top30.csv
+Recommended split: Stratified split + cross-validation
+Reason: No clean time variable, governance consistency
