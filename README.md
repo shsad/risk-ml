@@ -68,3 +68,23 @@ The pipeline:
 - One-hot encodes categorical features
 - Splits data into train and validation sets reproducibly
 
+## Step 4 — Baseline model results
+
+| Model                | ROC-AUC | PR-AUC | Notes |
+|----------------------|---------|--------|-------|
+| Logistic Regression  | 0.6341  | 0.1270 | Baseline, simple linear model |
+| XGBoost              | 0.6679  | 0.1556 | Nonlinear model, better recall on minority class |
+
+XGBoost improves precision-recall performance, confirming stronger signal capture.
+
+## Step 5 — Decision policy (cost-based)
+
+
+- Costs assumed: FN = 5, FP = 1  
+- Selected threshold: t = 0.153  
+- Precision = 0.203  
+- Recall = 0.207  
+
+Threshold is chosen by minimizing expected cost, aligning model output with business risk appetite.  
+This produces an auditable decision rule rather than relying on an arbitrary 0.5 cutoff.
+
