@@ -27,3 +27,7 @@ if __name__ == "__main__":
     data = load_application_train("../data/raw/application_train.csv")
     print(data.shape)
     print(data["target"].value_counts(normalize=True))
+
+
+
+
