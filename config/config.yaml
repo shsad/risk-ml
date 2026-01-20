@@ -1,0 +1,19 @@
+data:
+  path: data/raw/application_train.csv
+
+model:
+  type: xgboost
+  n_estimators: 400
+  max_depth: 4
+  learning_rate: 0.05
+  subsample: 0.8
+  colsample_bytree: 0.8
+
+policy:
+  cost_false_negative: 5.0
+  cost_false_positive: 1.0
+  threshold: 0.153
+
+metrics:
+  primary: pr_auc
+  secondary: roc_auc

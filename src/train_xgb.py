@@ -12,6 +12,10 @@ from src.features import build_preprocessor, train_val_split
 
 
 def main():
+    """
+    Train XGBoost credit risk model.
+    Intended to be run as a reproducible pipeline entrypoint.
+    """
     root = Path(__file__).resolve().parents[1]
     data_path = root / "data" / "raw" / "application_train.csv"
     model_path = root / "reports" / "xgb_model.joblib"
