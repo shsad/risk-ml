@@ -1,0 +1,43 @@
+feature,importance
+name_education_type_Higher education,0.16212025
+code_gender_M,0.10395877
+name_income_type_Working,0.082579955
+name_education_type_Secondary / secondary special,0.07688815
+code_gender_F,0.054355588
+name_income_type_Pensioner,0.049224995
+name_contract_type_Cash loans,0.03758171
+name_contract_type_Revolving loans,0.035013188
+days_birth,0.03188479
+occupation_type_Low-skill Laborers,0.028448869
+days_employed,0.026194612
+occupation_type_Accountants,0.023693627
+amt_credit,0.022654958
+occupation_type_Core staff,0.01863849
+name_education_type_Lower secondary,0.018358868
+amt_annuity,0.017599218
+occupation_type_Sales staff,0.014459201
+occupation_type_High skill tech staff,0.014103556
+name_education_type_Incomplete higher,0.013905599
+cnt_fam_members,0.013261872
+occupation_type_Security staff,0.012239704
+occupation_type_Cooking staff,0.011149347
+amt_income_total,0.010780746
+occupation_type_Cleaning staff,0.010607047
+name_income_type_Commercial associate,0.01020317
+occupation_type_Secretaries,0.010065894
+occupation_type_Private service staff,0.009966034
+name_income_type_State servant,0.009767939
+occupation_type_Laborers,0.00937495
+occupation_type_Drivers,0.008240237
+occupation_type_Waiters/barmen staff,0.00809284
+occupation_type_Managers,0.0077675483
+occupation_type_HR staff,0.007475997
+name_income_type_Unemployed,0.007326997
+name_education_type_Academic degree,0.006337429
+occupation_type_IT staff,0.006258582
+occupation_type_Medicine staff,0.004958576
+occupation_type_Realty agents,0.004460809
+name_income_type_Maternity leave,0.0
+name_income_type_Businessman,0.0
+name_income_type_Student,0.0
+code_gender_XNA,0.0

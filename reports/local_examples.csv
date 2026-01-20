@@ -1,0 +1,4 @@
+sk_id_curr,target,pred_pd,amt_income_total,amt_credit,amt_annuity,days_birth,days_employed,name_income_type,name_education_type,occupation_type
+143454,1,0.5233278,31500.0,585000.0,26892.0,-12403,365243,Unemployed,Secondary / secondary special,
+205186,0,0.0024963964,315000.0,2250000.0,112500.0,-21489,-13195,Working,Higher education,Managers
+452306,0,0.06847844,112500.0,450000.0,16294.5,-18162,-6761,Working,Secondary / secondary special,Laborers
